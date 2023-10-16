@@ -1,0 +1,13 @@
+{
+    "canisters": {
+      "tasks_isaac": {
+        "type": "custom",
+        "main": "src/index.ts", 
+        "candid": "src/index.did", 
+        "build": "npx azle tasks_isaac",
+        "wasm": ".azle/tasks_isaac/tasks_isaac.wasm", 
+        "gzip": true
+      }
+    }
+  }
+  
